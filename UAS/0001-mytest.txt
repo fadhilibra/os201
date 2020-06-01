@@ -1,22 +1,27 @@
-Script started on Sat 30 May 2020 01:57:04 PM WIB
+Script started on Mon 01 Jun 2020 01:10:27 PM WIB
 fadhil.ibrahim@badak:~$ PS1="$ "
 $ echo $GitHubUser
 fadhilibra
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200530-135815-41f3-fadhil.ibrahim/>
+200601-131102-fd88-fadhil.ibrahim/>
 $ PS1="\$(eval \$PSTAMP)"
-200530-135841-e7a8-fadhil.ibrahim/> date
-Sat May 30 13:59:07 WIB 2020
-200530-135907-7a11-fadhil.ibrahim/> gpg --list-keys
+200601-131119-8d18-fadhil.ibrahim/> date
+Mon Jun  1 13:11:33 WIB 2020
+200601-131133-f3d9-fadhil.ibrahim/> gpg2 --list-keys
 /home/fasilkom/mahasiswa/f/fadhil.ibrahim/.gnupg/pubring.gpg
 ------------------------------------------------------------
 pub   4096R/34352A45 2020-05-29
-uid                  Fadhil Ibrahim (OS201 C 1806186692 fadhilibra Fadhil Ibrahim) <tiltilpatil12@gmail.com>
+uid       [ultimate] Fadhil Ibrahim (OS201 C 1806186692 fadhilibra Fadhil Ibrahim) <tiltilpatil12@gmail.com>
 sub   4096R/A36F2CE9 2020-05-29
 
-200530-135929-8ab7-fadhil.ibrahim/> exit
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200601-131159-551b-fadhil.ibrahim/> exit
 exit
 
-Script done on Sat 30 May 2020 02:00:17 PM WIB
+Script done on Mon 01 Jun 2020 01:12:05 PM WIB
+
