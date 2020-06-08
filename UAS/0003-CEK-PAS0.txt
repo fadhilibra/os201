@@ -1,0 +1,33 @@
+Script started on Mon 08 Jun 2020 03:22:20 PM WIB
+fadhil.ibrahim@badak:~$ PS1="$ "
+$ echo $GitHubUser
+fadhilibra
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ PS1="\$(eval \$PSTAMP)"
+200608-152501-a69d-fadhil.ibrahim/> ls -F
+0000-mypub.txt       coba.txt            NAMABERKAS.txt  public.pgp    Week00/
+0001-mytest.txt      Demos/              namafilebaru*   SHA1SUM       Week01/
+0002-mytest.txt.asc  fadhil.c            namafile.c      SHA1SUM.asc   Week02/
+0003-CEK-PAS0.txt    fadhilibra_pgp.asc  nano.save       timestampuas  Week03/
+a.out*               mykey.asc           nano.save.1     W04-log.txt   Week04/
+c > SHA1SUM14-442a-fadhil.ibrahim/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.as
+200608-152705-8b41-fadhil.ibrahim/> sha1sum -c SHA1SUM
+0000-mypub.txt: OK
+0001-mytest.txt: OK
+0002-mytest.txt.asc: OK
+200608-152755-663c-fadhil.ibrahim/> gpg2 -sb -a SHA1SUM
+
+You need a passphrase to unlock the secret key for
+user: "Fadhil Ibrahim (OS201 C 1806186692 fadhilibra Fadhil Ibrahim) <tiltilpatil12@gmail.com>"
+4096-bit RSA key, ID 34352A45, created 2020-05-29
+
+File `SHA1SUM.asc' exists. Overwrite? (y/N) y
+200608-153616-8e27-fadhil.ibrahim/> gpg2 --verify SHA1SUM.asc
+gpg: assuming signed data in 'SHA1SUM'
+gpg: Signature made Mon 08 Jun 2020 03:35:37 PM WIB using RSA key ID 34352A45
+gpg: Good signature from "Fadhil Ibrahim (OS201 C 1806186692 fadhilibra Fadhil Ibrahim) <tiltilpatil12@gmail.com>" [ultimate]
+200608-153734-44af-fadhil.ibrahim/> exit
+exit
+
+Script done on Mon 08 Jun 2020 03:38:47 PM WIB
