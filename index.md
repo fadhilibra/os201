@@ -2,9 +2,9 @@
 <p> Website for Operating System's Final Exam</p>
 <p> Made with <strong>Jekyll</strong> and <strong>Github Pages</strong> </p>
 <br>
-<p> My name is <split><h3>Fadhil Ibrahim</h3></split>. An undergraduate
-  student of <split><h3>Computer Science</h3></split> at 
-  <split><h3>Universitas Indonesia</h3></split>
+<p> My name is <h3>Fadhil Ibrahim</h3>. An undergraduate
+  student of <h3>Computer Science</h3> at 
+  <h3>Universitas Indonesia</h3>
 <h2> Hobbies: </h2>
 <p> Computer Science 2018 </p>
 <p> Universitas Indonesia </p>
