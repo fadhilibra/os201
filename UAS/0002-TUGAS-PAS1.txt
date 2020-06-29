@@ -1,0 +1,37 @@
+Script started on Tue 30 Jun 2020 02:35:49 AM WIB
+]0;fadhil.ibrahim@badak: ~/pribadi/os201/UASfadhil.ibrahim@badak:~/pribadi/os201/UAS$ PS1="$ "
+$ echo $akunGitHub
+fadhilibra
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(sleep 1; echo $TMP1-$akunGitHub-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ date
+Tue Jun 30 02:36:32 WIB 2020
+$ PS1="\$(eval \$PSTAMP)"
+200630-023632-3d05-UAS/> echo -e $CEKSAYA
+fadhilibra fadhilibra ZCZCSCRIPTSTART 200601-131027 
+ fadhilibra fadhilibra 200601-131102-fd88-fadhil.ibrahim/ 200601-131102 SEQOK SUMOK fd8898d4 
+ fadhilibra fadhilibra 200601-131119-8d18-fadhil.ibrahim/ 200601-131119 SEQOK SUMOK 8d1862d7 
+ fadhilibra fadhilibra 200601-131133-f3d9-fadhil.ibrahim/ 200601-131133 SEQOK SUMOK f3d95abb 
+ fadhilibra fadhilibra 200601-131159-551b-fadhil.ibrahim/ 200601-131159 SEQOK SUMOK 551bdc73 
+ fadhilibra fadhilibra ZCZCSCRIPTSTOP 200601-131205 SEQOK SUMOK 
+
+200630-023633-e3b7-UAS/> echo -e $CEKSEBELA1
+fadhilibra ZCZCSCRIPTSTART 200608-172918 FarizioKautsar 
+ fadhilibra FarizioKautsar 200608-172944-cb6b-UAS/ 200608-172944 SEQOK SUMOK cb6b3c6a 
+ fadhilibra FarizioKautsar 200608-172957-ad02-UAS/ 200608-172957 SEQOK SUMOK ad02332e 
+ fadhilibra FarizioKautsar 200608-173000-3086-UAS/ 200608-173000 SEQOK SUMOK 3086f8c0 
+ fadhilibra FarizioKautsar 200608-173015-7c5d-UAS/ 200608-173015 SEQOK SUMOK 7c5de50a 
+ fadhilibra ZCZCSCRIPTSTOP 200608-173020 SEQOK 
+
+200630-023634-663a-UAS/> echo -e $CEKSEBELA2
+fadhilibra ZCZCSCRIPTSTART 200607-231558 fatih-alaydrus 
+ fadhilibra fatih-alaydrus 200607-231652-247f-fatih.ismail/ 200607-231652 SEQOK SUMOK 247f9d51 
+ fadhilibra fatih-alaydrus 200607-231659-1bd7-fatih.ismail/ 200607-231659 SEQOK SUMOK 1bd70397 
+ fadhilibra fatih-alaydrus 200607-231718-01b6-fatih.ismail/ 200607-231718 SEQOK SUMOK 01b6fde4 
+ fadhilibra fatih-alaydrus 200607-231730-58a5-fatih.ismail/ 200607-231730 SEQOK SUMOK 58a5763e 
+ fadhilibra ZCZCSCRIPTSTOP 200607-231736 SEQOK 
+
+200630-023635-5c1f-UAS/> exit
+exit
+
+Script done on Tue 30 Jun 2020 02:36:41 AM WIB
